@@ -23,6 +23,7 @@ shinyUI(fluidPage(
     # Show a plot of the Toothlength growth vs parameter selected by user
     mainPanel(
        plotOutput("distPlot")
+       
     )
-  )
+         )
 ))
